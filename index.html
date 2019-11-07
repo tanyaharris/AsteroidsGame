@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name = "description" content ="Простая игра на JS без использования сторонних фрэймворков">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<title>Астероиды</title>
+</head>
+<body>
+	<div id="wrapper">
+			<div id="conteiner_startgame">
+				<canvas id="startgame" width="700" height="450">Обновите браузер! Элемент не поддерживается</canvas>
+				<div class="comandr">
+					<div class="messages">
+						<span class="message message-1"></span><br>
+						<span class="message message-2"></span><br>
+						<span class="message message-3"></span><br>
+						<span class="message message-4"></span><br>
+						<span class="message message-5"></span><br>
+					</div>
+					<p id="zag" class="blink-1">СПАСТИ ЗЕМЛЮ</p>
+				</div>
+			</div>
+				<canvas id = "game" width="600" height="600">Обновите браузер! Элемент не поддерживается</canvas>
+			<div id= "conteiner_restart">
+				<canvas id="restart" width="700" height="450">Обновите браузер! Элемент не поддерживается</canvas>
+				<p>Планета уничтожена!</p>
+				<p>Количество очков: </p>
+				<p>Нажмите чтобы начать сначала</p>
+			</div>
+	</div>
+	<script type="text/javascript" src="./scripts/typed.min.js"></script>
+	<script src="./scripts/game.js"></script>
+	<script src="./scripts/startWindow.js"></script>
+
+</body>
+</html>
